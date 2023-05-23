@@ -16,8 +16,8 @@ const Card = ({ post, deletePost, isAuth }) => {
   };
 
   return (
-    <div className='cart lg:w-[30%] md:w-[45%] flex flex-col w-full h-[50vh] justify-center items-center lg:px-2 lg:py-1 px-1 py-1 shadow-lg shadow-gray-400 hover:shadow-orange-300'>
-      <div className='img w-full h-1/2 flex justify-center items-center overflow-hidden'>
+    <div className='cart lg:w-[30%] md:w-[45%] flex flex-col w-full h-[50vh] portrait:h-full justify-center items-center lg:px-2 lg:py-1 px-1 py-1 shadow-lg shadow-gray-400 hover:shadow-orange-300'>
+      <div className='img w-full h-1/2 portrait:h-2/3 flex justify-center items-center overflow-hidden'>
        {post.img ?
         <img src={post.img} alt={post.title} className='object-cover' /> 
         : <img src={Images.logo} alt={post.title} className='object-cover' />
