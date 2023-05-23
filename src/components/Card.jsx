@@ -24,7 +24,7 @@ const Card = ({ post, deletePost, isAuth }) => {
        } 
       </div>
       <div className='title w-full py-1 mt-2'>
-        <h2 className='text-[#fa9201] lg:text-2xl text-xl font-medium mb-1'>
+        <h2 className='text-[#fa9201] lg:text-xl text-l font-medium mb-1'>
           {post.title}
         </h2>
         <button
