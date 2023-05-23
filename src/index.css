@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3{
+    font-family: 'Gafata', sans-serif;;
+}
+p, a {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
