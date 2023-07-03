@@ -8,7 +8,7 @@ Before installing Honey-blog, ensure you have [Node.js](https://nodejs.org) and 
 
 1.Clone the repository:
 ```bash
-git clone [https://github.com/FWDcodeStorage/honey-blog.git](https://github.com/FWDcodeStorage/honey-blog_react_app.git)
+git clone https://github.com/FWDcodeStorage/honey-blog.git
 
 ```
 
