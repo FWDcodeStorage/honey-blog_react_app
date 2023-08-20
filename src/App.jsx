@@ -70,15 +70,18 @@ function App() {
   const deletePost = async (id) => {
     const postDoc = doc(db, "posts", id);
     const docSnapshot = await getDoc(postDoc);
+    
     if (docSnapshot.exists()) {
-      window.confirm("Are you sure you want to delete this post?");
-      if (window.confirm("Are you sure you want to delete this post?")) {
+      const confirmDelete = window.confirm("Are you sure you want to delete this post?");
+      
+      if (confirmDelete) {
         await deleteDoc(postDoc);
         window.location.reload();
         window.alert("Successfully deleted");
       }
     }
   };
+  
 
 
   return (
